@@ -1,0 +1,25 @@
+#Plugin made by zsoltti
+#website: http://zsolti.ml
+#Permissions: easyfreeze.use & easyfreeze.check & easyfreeze.reloadconfig
+#Command: /freeze <player>
+#Command: /checkfreeze <player>
+#Command /easyfreeze (just to reload the config file)
+
+
+Dont have permission: "&cYou don't have permission to perform this command."
+Wrong player: "&cI can't find this player."
+Too much argument: "&cUnkown argument."
+You cant be the target: "&cYou cant be the target."
+
+command:
+  freeze:
+    usage: "&cUsage: /freeze &e<player>"
+    freezed message: "&aNow you are freezed. by: &e%player%"
+    unfreezed message: "§aNow you are unfreezed. by: &e%player%"
+    freezed target message: "&aNow &e%player% &ais freezed."
+    unfreezed target message: "&aNow &e%player% &ais unfreezed."
+  checkfreeze:
+    check message: "&e%player% &afrozen is &e%boolean%."
+    usage: "&cUsage: /checkfreeze &e<player>"
+
+
