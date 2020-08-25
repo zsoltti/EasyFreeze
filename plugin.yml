@@ -1,0 +1,14 @@
+name: EasyFreeze
+version: 1.0.0
+main: me.zsoltti.EasyFreeze.Main
+author: Zsoltti
+
+commands:
+  easyfreeze:
+  checkfreeze:
+    aliases:
+      - freezecheck
+  freeze:
+    aliases:
+      - stun
+      - froze
