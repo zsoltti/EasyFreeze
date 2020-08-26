@@ -5,7 +5,8 @@
 #Command: /checkfreeze <player>
 #Command /easyfreeze (just to reload the config file)
 
-
+player chat prefix: "&b&lFREEZED&r"
+freezed text: "§cCurrently you are freezed. Contact us on discord for help: &eLINK"
 Dont have permission: "&cYou don't have permission to perform this command."
 Wrong player: "&cI can't find this player."
 Too much argument: "&cUnkown argument."
